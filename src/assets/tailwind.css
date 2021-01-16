@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Averta;
+  src: url('./fonts/Averta-400.otf');
+}
+
+.bg-primary {
+  background-color: #37517e;
+}
+
+.btn {
+  @apply inline-block px-5 py-1 border rounded-sm cursor-pointer font-bold text-center text-white;
+}
+
+.btn.btn-lg {
+  @apply py-3 px-6;
+}
+
+.btn-outine-primary {
+  border-color: #00b9ff;
+  color: #00b9ff;
+}
+
+.btn-outine-primary:hover,
+.btn-outine-primary:active {
+  background-color: #00b9ff;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #00b9ff;
+  color: white;
+  border-color: #00b9ff;
+}
+
+.btn-success {
+  background-color: #2ed06e;
+  color: white;
+  border-color: #2ed06e;
+}
